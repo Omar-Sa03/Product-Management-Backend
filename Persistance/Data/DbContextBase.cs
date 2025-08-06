@@ -1,4 +1,5 @@
 ﻿using Domain.Common;
+using Domain.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.ComponentModel.DataAnnotations;

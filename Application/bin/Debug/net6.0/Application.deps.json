@@ -8,16 +8,30 @@
     ".NETCoreApp,Version=v6.0": {
       "Application/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "Confluent.Kafka": "2.2.0",
           "Domain": "1.0.0",
           "MediatR": "11.1.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "Microsoft.AspNetCore.SignalR.Core": "1.1.0",
           "Microsoft.EntityFrameworkCore": "6.0.20",
           "Microsoft.Extensions.Hosting.Abstractions": "7.0.0",
+          "Polly": "8.3.0",
           "RabbitMQ.Client": "6.5.0"
         },
         "runtime": {
           "Application.dll": {}
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
         }
       },
       "Confluent.Kafka/2.2.0": {
@@ -29,6 +43,14 @@
           "lib/net6.0/Confluent.Kafka.dll": {
             "assemblyVersion": "2.2.0.0",
             "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "FluentValidation/11.9.0": {
+        "runtime": {
+          "lib/net6.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.0.0"
           }
         }
       },
@@ -204,6 +226,18 @@
           }
         }
       },
+      "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "System.Text.Encodings.Web": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Http.Abstractions.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.18316"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Http.Features/2.2.0": {
         "dependencies": {
           "Microsoft.Extensions.Primitives": "7.0.0"
@@ -255,6 +289,25 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.SignalR.Protocols.Json.dll": {
             "assemblyVersion": "1.1.0.0",
             "fileVersion": "1.1.0.18316"
+          }
+        }
+      },
+      "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52210"
+          }
+        }
+      },
+      "Microsoft.Bcl.TimeProvider/8.0.0": {
+        "dependencies": {
+          "Microsoft.Bcl.AsyncInterfaces": "6.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Bcl.TimeProvider.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
           }
         }
       },
@@ -421,6 +474,28 @@
           }
         }
       },
+      "Polly/8.3.0": {
+        "dependencies": {
+          "Polly.Core": "8.3.0"
+        },
+        "runtime": {
+          "lib/net6.0/Polly.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.3.0.3097"
+          }
+        }
+      },
+      "Polly.Core/8.3.0": {
+        "dependencies": {
+          "Microsoft.Bcl.TimeProvider": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Polly.Core.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.3.0.3097"
+          }
+        }
+      },
       "RabbitMQ.Client/6.5.0": {
         "dependencies": {
           "System.Memory": "4.5.5",
@@ -514,6 +589,7 @@
           "System.Runtime": "4.3.0"
         }
       },
+      "System.Text.Encodings.Web/4.5.0": {},
       "System.Threading.Channels/7.0.0": {
         "runtime": {
           "lib/net6.0/System.Threading.Channels.dll": {
@@ -530,6 +606,10 @@
         }
       },
       "Domain/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.0",
+          "Microsoft.AspNetCore.Http.Abstractions": "2.2.0"
+        },
         "runtime": {
           "Domain.dll": {}
         }
@@ -542,12 +622,26 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
+    },
     "Confluent.Kafka/2.2.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-havWZ3AJl5YYO9pJn8+0sUMc+vjgatgNJBvL0E0Ydw72nFKc+AuLWylTNw0ZPTEE3t7dzzaTsv0m9WTSu2U04w==",
       "path": "confluent.kafka/2.2.0",
       "hashPath": "confluent.kafka.2.2.0.nupkg.sha512"
+    },
+    "FluentValidation/11.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "path": "fluentvalidation/11.9.0",
+      "hashPath": "fluentvalidation.11.9.0.nupkg.sha512"
     },
     "librdkafka.redist/2.2.0": {
       "type": "package",
@@ -584,6 +678,13 @@
       "path": "microsoft.aspnetcore.connections.abstractions/2.2.0",
       "hashPath": "microsoft.aspnetcore.connections.abstractions.2.2.0.nupkg.sha512"
     },
+    "Microsoft.AspNetCore.Http.Abstractions/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Nxs7Z1q3f1STfLYKJSVXCs1iBl+Ya6E8o4Oy1bCxJ/rNI44E/0f6tbsrVqAWfB7jlnJfyaAtIalBVxPKUPQb4Q==",
+      "path": "microsoft.aspnetcore.http.abstractions/2.2.0",
+      "hashPath": "microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Http.Features/2.2.0": {
       "type": "package",
       "serviceable": true,
@@ -611,6 +712,20 @@
       "sha512": "sha512-BOsjatDJnvnnXCMajOlC0ISmiFnJi/EyJzMo0i//5fZJVCLrQ4fyV/HzrhhAhSJuwJOQDdDozKQ9MB9jHq84pg==",
       "path": "microsoft.aspnetcore.signalr.protocols.json/1.1.0",
       "hashPath": "microsoft.aspnetcore.signalr.protocols.json.1.1.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.AsyncInterfaces/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UcSjPsst+DfAdJGVDsu346FX0ci0ah+lw3WRtn18NUwEqRt70HaOQ7lI72vy3+1LxtqI3T5GWwV39rQSrCzAeg==",
+      "path": "microsoft.bcl.asyncinterfaces/6.0.0",
+      "hashPath": "microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.Bcl.TimeProvider/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-f5Kr5JepAbiGo7uDmhgvMqhntwxqXNn6/IpTBSSI4cuHhgnJGrLxFRhMjVpRkLPp6zJXO0/G0l3j9p9zSJxa+w==",
+      "path": "microsoft.bcl.timeprovider/8.0.0",
+      "hashPath": "microsoft.bcl.timeprovider.8.0.0.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore/6.0.20": {
       "type": "package",
@@ -731,6 +846,20 @@
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
     },
+    "Polly/8.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vqAQmLO1gZcS8Ox9Ky+hrq0HxYrYVSBS1vzv6o6RZH3vvECutngIxkUHw9YijbG0QrycxvHo0Hbx0/D7MGgdow==",
+      "path": "polly/8.3.0",
+      "hashPath": "polly.8.3.0.nupkg.sha512"
+    },
+    "Polly.Core/8.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-A3r4xkWasffyrIJGjA3jWQi86ZGcR9BEbpIIoP9xYRAKYwiaGbKpqpsHdWv5sCeLZdaWpVs7pc4EM8Tei+LluA==",
+      "path": "polly.core/8.3.0",
+      "hashPath": "polly.core.8.3.0.nupkg.sha512"
+    },
     "RabbitMQ.Client/6.5.0": {
       "type": "package",
       "serviceable": true,
@@ -828,6 +957,13 @@
       "sha512": "sha512-BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
       "path": "system.text.encoding/4.3.0",
       "hashPath": "system.text.encoding.4.3.0.nupkg.sha512"
+    },
+    "System.Text.Encodings.Web/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Xg4G4Indi4dqP1iuAiMSwpiWS54ZghzR644OtsRCm/m/lBMG8dUBhLVN7hLm8NNrNTR+iGbshCPTwrvxZPlm4g==",
+      "path": "system.text.encodings.web/4.5.0",
+      "hashPath": "system.text.encodings.web.4.5.0.nupkg.sha512"
     },
     "System.Threading.Channels/7.0.0": {
       "type": "package",

@@ -10,5 +10,7 @@
         Task Delete(Guid id);
         Task<bool> Exists(Guid id);
         Task SaveChange(CancellationToken cancellationToken);
+        Task<T?> GetByIdAsync(Guid id, CancellationToken cancellationToken);
+        Task<bool> SoftDelete(Guid id);
     }
 }

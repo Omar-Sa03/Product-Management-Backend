@@ -10,9 +10,9 @@ namespace API.Extension
             {
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
-                    Title = "Tracking.Api",
+                    Title = "Produit.Api",
                     Version = "v1",
-                    Description = "Tracking Web Api ",
+                    Description = "Produit Web Api ",
                 });
             });
         }

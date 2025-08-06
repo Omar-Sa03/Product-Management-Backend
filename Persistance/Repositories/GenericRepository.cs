@@ -1,14 +1,15 @@
 ﻿using Application.Interfaces;
+using Domain.Common;
 using Microsoft.EntityFrameworkCore;
 using Persistance.Data;
 
 namespace Persistance.Repositories
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T> where T : Entity
     {
-        public readonly TrackingContext _context;
+        public readonly DematContext _context;
 
-        public GenericRepository(TrackingContext context)
+        public GenericRepository(DematContext context)
             => _context = context;
         public async Task<List<T>> PostRange(List<T> entity)
         {
@@ -56,6 +57,32 @@ namespace Persistance.Repositories
                 _context.Set<T>().Remove(entity);
             }
         }
+        public async Task<bool> SoftDelete(Guid id)
+        {
+            T? entity = await _context.Set<T>().FindAsync(id);
+
+            if (entity == null)
+            {
+                return false; // The entity doesn't exist; perhaps handle this in a specific way.
+            }
+
+            // Mark the entity as deleted (soft deletion).
+            if (entity is ISoftDeleteable softDeletableEntity)
+            {
+                softDeletableEntity.IsDeleted = true; // Make sure your entity has an IsDeleted property.
+                softDeletableEntity.DeletedDate = DateTime.UtcNow;
+            }
+            else
+            {
+                // Handle the case where the entity does not support soft deletion.
+                return false;
+            }
+
+            // Save the changes to the database context.
+            _context.Entry(entity).State = EntityState.Modified;
+
+            return true;
+        }
 
         public async Task<bool> Exists(Guid id)
         {
@@ -67,6 +94,12 @@ namespace Persistance.Repositories
         public async Task SaveChange(CancellationToken cancellationToken)
         {
            await  _context.SaveChangesAsync(cancellationToken);
+        }
+        public async Task<T?> GetByIdAsync(Guid id, CancellationToken cancellationToken)
+        {
+            T? entity = await _context.Set<T>().FirstOrDefaultAsync(e => !e.IsDeleted && e.Id == id, cancellationToken);
+
+            return entity ?? null;
         }
     }
 }

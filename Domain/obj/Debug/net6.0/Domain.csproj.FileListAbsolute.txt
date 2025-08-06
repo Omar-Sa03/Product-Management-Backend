@@ -22,3 +22,75 @@ C:\Users\Rouissi Mahdi\source\repos\trackingfrieghtsure\Domain\obj\Debug\net6.0\
 C:\Users\Rouissi Mahdi\source\repos\trackingfrieghtsure\Domain\obj\Debug\net6.0\refint\Domain.dll
 C:\Users\Rouissi Mahdi\source\repos\trackingfrieghtsure\Domain\obj\Debug\net6.0\Domain.pdb
 C:\Users\Rouissi Mahdi\source\repos\trackingfrieghtsure\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Desktop\tracking\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Desktop\GestionParking\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Desktop\Stage\Clean Arhitecteur\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Desktop\Stage\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Downloads\DEAMT Architecteur 4\DEAMT Architecteur\DEAMT Architecteur\Domain\obj\Debug\net6.0\ref\Domain.dll
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\bin\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\bin\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\Domain.dll
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\Domain.pdb
+C:\Users\LENOVO_ADDINN\Downloads\Clean Architecteur 1\Clean Architecteur\Domain\obj\Debug\net6.0\ref\Domain.dll

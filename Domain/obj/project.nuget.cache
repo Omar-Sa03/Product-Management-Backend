@@ -1,8 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "N/GuAWM1zwBf3sGcJLS7v+69xi/WuhzoXzuSqlJQuaawL6qEciCm2SRoWDmYuH0/BhZdyaSyPFFc7OX+jxEBXQ==",
+  "dgSpecHash": "IlHp897TEMI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\medom\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\medom\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\medom\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.2.0\\microsoft.aspnetcore.http.features.2.2.0.nupkg.sha512",
+    "C:\\Users\\medom\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\medom\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\medom\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\medom\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
   "logs": []
 }

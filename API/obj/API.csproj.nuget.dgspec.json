@@ -1,35 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\API.csproj": {}
+    "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\API.csproj": {
+    "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\Rouissi Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\API\\obj\\",
+        "projectPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\medom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rouissi Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\medom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj": {
-                "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj"
+              "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Persistance\\Persistance.csproj": {
+                "projectPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Persistance\\Persistance.csproj"
               }
             }
           }
@@ -38,11 +42,17 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "MediatR": {
               "target": "Package",
@@ -54,21 +64,21 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.20, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.20, )"
+              "version": "[8.0.6, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[8.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.2.3, )"
+              "version": "[9.0.1, )"
             }
           },
           "imports": [
@@ -90,36 +100,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj": {
+    "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\Rouissi Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\obj\\",
+        "projectPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\medom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rouissi Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\medom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj"
+              "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\Domain.csproj"
               }
             }
           }
@@ -128,12 +142,22 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Confluent.Kafka": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -142,17 +166,25 @@
               "target": "Package",
               "version": "[11.1.0, )"
             },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.AspNetCore.SignalR.Core": {
               "target": "Package",
               "version": "[1.1.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.20, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.Extensions.Hosting.Abstractions": {
               "target": "Package",
               "version": "[7.0.0, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[8.3.0, )"
             },
             "RabbitMQ.Client": {
               "target": "Package",
@@ -175,33 +207,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj": {
+    "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Rouissi Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\medom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rouissi Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\medom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -209,11 +245,27 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -230,39 +282,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj": {
+    "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Persistance\\Persistance.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj",
+        "projectUniqueName": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Persistance\\Persistance.csproj",
         "projectName": "Persistance",
-        "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\Persistance.csproj",
-        "packagesPath": "C:\\Users\\Rouissi Mahdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Persistance\\obj\\",
+        "projectPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Persistance\\Persistance.csproj",
+        "packagesPath": "C:\\Users\\medom\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Persistance\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Rouissi Mahdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\medom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Application\\Application.csproj"
+              "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Application\\Application.csproj"
               },
-              "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Rouissi Mahdi\\source\\repos\\trackingfrieghtsure\\Domain\\Domain.csproj"
+              "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\medom\\OneDrive\\Documents\\Clean Architecteur\\Domain\\Domain.csproj"
               }
             }
           }
@@ -271,19 +327,25 @@
           "warnAsError": [
             "NU1605"
           ]
-        }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[6.0.20, )"
+              "version": "[8.0.6, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[6.0.20, )"
+              "version": "[8.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -291,9 +353,9 @@
               "target": "Package",
               "version": "[6.0.20, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Npgsql.Bulk": {
               "target": "Package",
-              "version": "[6.0.8, )"
+              "version": "[0.13.0, )"
             }
           },
           "imports": [
@@ -312,7 +374,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

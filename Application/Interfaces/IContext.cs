@@ -1,4 +1,4 @@
-﻿namespace Application.DInterfaces
+﻿namespace Application.Interfaces
 {
     /// <summary>
     /// Interface de base du context de persistence. Utile pour les tests unitaires
